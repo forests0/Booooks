@@ -1,0 +1,61 @@
+name: booook
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+2023091401
+# YYYYMMDD 빌드카운트 2자리
+environment:
+  sdk: '>=3.1.0-206.0.dev <4.0.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  cupertino_icons: ^1.0.2
+  pull_to_refresh: ^2.0.0 
+  cached_network_image: ^3.2.3 
+  flutter_svg: ^2.0.7 
+  image_picker: ^1.0.4 
+  dio: ^5.3.2
+  dartz: ^0.10.1
+  freezed_annotation: ^2.4.1
+  logger: ^2.0.2 
+  shared_preferences: ^2.2.1 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1 
+  freezed: ^2.4.2 
+  build_runner: ^2.4.6 
+  json_serializable: ^6.7.1 
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icons.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svgs/
+  fonts:
+    - family: SpoqaHanSansNeoB
+      fonts:
+        - asset: assets\fonts\SpoqaHanSansNeo_OTF_original\SpoqaHanSansNeo-Bold.otf
+    - family: SpoqaHanSansNeoL
+      fonts:
+        - asset: assets\fonts\SpoqaHanSansNeo_OTF_original\SpoqaHanSansNeo-Light.otf
+    - family: SpoqaHanSansNeoM
+      fonts:
+        - asset: assets\fonts\SpoqaHanSansNeo_OTF_original\SpoqaHanSansNeo-Medium.otf
+    - family: SpoqaHanSansNeoR
+      fonts:
+        - asset: assets\fonts\SpoqaHanSansNeo_OTF_original\SpoqaHanSansNeo-Regular.otf
+    - family: SpoqaHanSansNeoT
+      fonts:
+        - asset: assets\fonts\SpoqaHanSansNeo_OTF_original\SpoqaHanSansNeo-Thin.otf
+        
